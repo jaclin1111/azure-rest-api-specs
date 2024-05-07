@@ -99,7 +99,7 @@ prepareSteps:
         fromResponse: /id
   - step: createVirtualMachine
     operationId: VirtualMachines_CreateOrUpdate
-    readmeTag: ../../../../../../compute/resource-manager/readme.md#package-2022-11-01
+    readmeTag: ../../../../../../compute/resource-manager/readme.md#package-2024-03-01
     parameters:
       vmName: $(vmName)
       parameters:
@@ -126,7 +126,7 @@ prepareSteps:
           additionalCapabilities: {}
   - step: createVirtualMachineScaleSets
     operationId: VirtualMachineScaleSets_CreateOrUpdate
-    readmeTag: ../../../../../../compute/resource-manager/readme.md#package-2022-11-01
+    readmeTag: ../../../../../../compute/resource-manager/readme.md#package-2024-03-01
     parameters:
       vmScaleSetName: $(vmssName)
       parameters:
@@ -174,7 +174,7 @@ scenarios:
     - operationId: GuestConfigurationAssignments_RGList
       exampleFile: ../../2024-04-05/examples/listRGGuestConfigurationAssignments.json
     - operationId: Operations_List
-      exampleFile: ../../2022-01-25/examples/listOperations.json
+      exampleFile: ../../2024-01-05/examples/listOperations.json
     - operationId: GuestConfigurationAssignments_Get
       exampleFile: ../../2024-04-05/examples/getGuestConfigurationAssignment.json
     - operationId: GuestConfigurationAssignments_List
