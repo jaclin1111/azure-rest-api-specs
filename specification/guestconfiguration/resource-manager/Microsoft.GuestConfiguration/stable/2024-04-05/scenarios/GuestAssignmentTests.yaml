@@ -174,7 +174,7 @@ scenarios:
     - operationId: GuestConfigurationAssignments_RGList
       exampleFile: ../../2024-04-05/examples/listRGGuestConfigurationAssignments.json
     - operationId: Operations_List
-      exampleFile: ../../2024-01-05/examples/listOperations.json
+      exampleFile: ../../2024-04-05/examples/listOperations.json
     - operationId: GuestConfigurationAssignments_Get
       exampleFile: ../../2024-04-05/examples/getGuestConfigurationAssignment.json
     - operationId: GuestConfigurationAssignments_List
