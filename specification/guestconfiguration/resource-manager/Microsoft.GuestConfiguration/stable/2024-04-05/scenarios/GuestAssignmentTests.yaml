@@ -169,16 +169,20 @@ scenarios:
     steps:
     - operationId: GuestConfigurationAssignments_CreateOrUpdate
       exampleFile: ../../2024-04-05/examples/createOrUpdateGuestConfigurationAssignment.json
-    - operationId: GuestConfigurationAssignmentsVMSS_CreateOrUpdate
-      exampleFile: ../../2024-04-05/examples/createOrUpdateGuestConfigurationVMSSAssignment.json
-    - operationId: GuestConfigurationAssignments_Delete
-      exampleFile: ../../2024-04-05/examples/deleteGuestConfigurationAssignment.json
+    - operationId: GuestConfigurationAssignments_SubscriptionList
+      exampleFile: ../../2024-04-05/examples/listSubGuestConfigurationAssignments.json
+    - operationId: GuestConfigurationAssignments_RGList
+      exampleFile: ../../2024-04-05/examples/listRGGuestConfigurationAssignments.json
+    - operationId: Operations_List
+      exampleFile: ../../2022-01-25/examples/listOperations.json
     - operationId: GuestConfigurationAssignments_Get
       exampleFile: ../../2024-04-05/examples/getGuestConfigurationAssignment.json
-    - operationId: GuestConfigurationAssignmentsVMSS_Get
-      exampleFile: ../../2024-04-05/examples/getVMSSGuestConfigurationAssignment.json
     - operationId: GuestConfigurationAssignments_List
       exampleFile: ../../2024-04-05/examples/listGuestConfigurationAssignments.json
-    - operationId: GuestConfigurationAssignmentsVMSS_List
-      exampleFile: ../../2024-04-05/examples/listVMSSGuestConfigurationAssignments.json
+    - operationId: GuestConfigurationAssignments_Delete
+      exampleFile: ../../2024-04-05/examples/deleteGuestConfigurationAssignment.json
+    - operationId: GuestConfigurationAssignmentsVMSS_CreateOrUpdate
+      exampleFile: ../../2024-04-05/examples/createOrUpdateGuestConfigurationVMSSAssignment.json
+    - operationId: GuestConfigurationAssignmentsVMSS_Get
+      exampleFile: ../../2024-04-05/examples/getVMSSGuestConfigurationAssignment.json
       
